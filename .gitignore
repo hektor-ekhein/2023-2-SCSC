@@ -3,3 +3,6 @@
 .vscode/launch.json
 **/*.exe
 .gitignore
+c_fundamentals/.vscode/tasks.json
+c_fundamentals/.vscode/settings.json
+c_fundamentals/.vscode/launch.json
