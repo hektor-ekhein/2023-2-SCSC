@@ -109,7 +109,7 @@ int main(){
 int main(){
     int val1=1, val2=1, sum=0;
     do {
-        val2=val1+val2;
+        val2+=val1;
         if (val2%2==0){
             sum+=val2;
         }
