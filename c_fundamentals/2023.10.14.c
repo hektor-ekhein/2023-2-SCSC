@@ -109,7 +109,7 @@ int main(){
 int main(){
     int val1=1, val2=1, sum=0;
     do {
-        val2=val1+val2;
+        val2+=val1;
         if (val2%2==0){
             sum+=val2;
         }
@@ -121,13 +121,13 @@ int main(){
 */
 
 
-/*
-// Problem 6 - 332334
+
+// Problem 6 - 332334 vs 442890
 int main(){
     int cnt=0;
-    for(int c=1;c<=667;++c){
+    for(int c=1;c<=665;++c){
         for (int b=c+1;b<=999;++b){
-            for (int a=b+1;a<=2000;++a){
+            for (int a=b+1;a<=1997;++a){
                 if (a+b+c==2000){
                     ++cnt;
                 }
@@ -137,7 +137,7 @@ int main(){
     printf("%d\n", cnt);
     return 0;
 }
-*/
+
 
 
 /*
