@@ -51,7 +51,7 @@ int main(){
     printf("Celsius to Fahrenheit \n");
     printf("Input Celsius: ");
     scanf("%lf", &celsius);
-    printf("Celsius: %.2f = Fahrenheit: %.2f \n", celsius, 9/5*celsius+32);
+    printf("Celsius: %.2f = Fahrenheit: %.2f \n", celsius, 9*celsius/5+32);
     return 0;
 }
 */
