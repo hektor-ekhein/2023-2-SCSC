@@ -1,6 +1,4 @@
-.vscode/settings.json
-.vscode/tasks.json
-.vscode/launch.json
+.vscode/
 .vscode/c_cpp_properties.json
 **/*.exe
 .gitignore
